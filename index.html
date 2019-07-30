@@ -5,41 +5,97 @@
     <meta viewport="width=device-width, initial-scale=1, shrink-to-fit:no">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script type="text/javascript" source="js/-3.4.1.js"></script>
-    <script type="text/javascript" source="js/scripts.js"></script>
+    <script src="js/jquery-3.4.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
     <title>Cooking Conversions</title>
   </head>
   <body>
     <div class="container">
       <h1 class="egyptionLight">Cooking Conversions</h1>
       <p class="egyptionRegItalic">Easy to use conversion tables when you just can't remember your Pints and Quarts!</p>
-      <form id="pints">
+      <form id="cupsConversion">
         <div class="form-row">
-          <div class="col-5">
+          <div class="col">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
-                <span class="input-group-text">Cups to Convert</span>
+                <span class="input-group-text">Cups</span>
               </div>
-              <input type="number" class="form-control" aria-label="number of cups">
+              <input type="text" name="cups" class="form-control" aria-label="number of cups">
             </div>
           </div>
           <div class="col">
             <div class="convertBox">
-              <p><span id="oz"></span> ounces</p>
+              <p><span id="oz"></span> <span class="unit unit1">To Ounces</span></p>
             </div>
           </div>
           <div class="col">
             <div class="convertBox">
-              <p><span id="ml"></span> milliliters</p>
+              <p><span id="ml"></span> <span class="unit unit1">To Milliliters</span></p>
             </div>
           </div>
           <div class="col">
             <div class="convertBox">
-              <p><span id="tb"></span> tablespoons</p>
+              <p><span id="tb"></span> <span class="unit unit1">Tablespoons</span></p>
             </div>
           </div>
         </div>
         <button type="submit" class="btn btn-primary">Convert Cups</button>
+      </form>
+
+      <form id="tempConversion">
+        <div class="form-row">
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Fahrenheit</span>
+              </div>
+              <input type="text" name="fahrenheit" class="form-control" aria-label="temperature in fahrenheit">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="convertBox">
+              <p><span id="celsius"></span> <span class="unit unit2">To Celsius</span></p>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-danger">Convert Temperature</button>
+      </form>
+
+      <form id="ozConversion">
+        <div class="form-row">
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Ounces</span>
+              </div>
+              <input type="text" name="ounces" class="form-control" aria-label="weight in ounces">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="convertBox">
+              <p><span id="grams"></span> <span class="unit unit3">To Grams</span></p>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-success">Convert Weight</button>
+      </form>
+      <form id="liquidConversion">
+        <div class="form-row">
+          <div class="col-4">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Gallons</span>
+              </div>
+              <input type="text" name="gallons" class="form-control" aria-label="liquid in gallons">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="convertBox">
+              <p><span id="liters"></span> <span class="unit unit4">To Liters</span></p>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-warning">Convert Liquid</button>
       </form>
     </div>
   </body>
