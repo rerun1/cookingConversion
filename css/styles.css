@@ -153,4 +153,22 @@ body {
   font-variant: normal;
   letter-spacing: .01em;
   word-spacing: .02em;
+  color: white;
+  background: rgba(22, 7, 134, 1.0) url("../img/measure.jpg") no-repeat top right;
+}
+
+h1 {
+  margin: 1em 0 .25em 0;
+}
+
+
+.convertBox {
+  width: 100%;
+  height: 70%;
+  background-color: rgba(22, 7, 134, 0.25);
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: .25em 1em 0 .25em;
+  text-align: right;
 }

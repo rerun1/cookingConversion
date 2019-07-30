@@ -13,6 +13,34 @@
     <div class="container">
       <h1 class="egyptionLight">Cooking Conversions</h1>
       <p class="egyptionRegItalic">Easy to use conversion tables when you just can't remember your Pints and Quarts!</p>
+      <form id="pints">
+        <div class="form-row">
+          <div class="col-5">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Cups to Convert</span>
+              </div>
+              <input type="number" class="form-control" aria-label="number of cups">
+            </div>
+          </div>
+          <div class="col">
+            <div class="convertBox">
+              <p><span id="oz"></span> ounces</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="convertBox">
+              <p><span id="ml"></span> milliliters</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="convertBox">
+              <p><span id="tb"></span> tablespoons</p>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Convert Cups</button>
+      </form>
     </div>
   </body>
 </html>
