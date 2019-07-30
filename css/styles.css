@@ -1,0 +1,156 @@
+/* guardian Egyption - in master fonts folder — adapted from guss fonts @ github for prototyping */
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.ttf') format('truetype');
+  font-weight: 300;/* Eygptian Light */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* End Eygption Guardian Web Font from github */
+
+/* guardian typeface from github */
+.egyption {
+  font-family: 'GuardianEgyptianWeb', serif;
+  font-variant: normal;
+  letter-spacing: .01em;
+  word-spacing: .02em;
+}
+.egyptionLight {
+  font-style: normal;
+  font-weight: 300;
+}
+.egyptionReg {
+  font-style: normal;
+  font-weight: 400;
+}
+.egyptionRegItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.egyptionMed {
+  font-style: normal;
+  font-weight: 500;
+}
+.egyptionSemi {
+  font-style: normal;
+  font-weight: 600;
+}
+.egyptionSemiItalic {
+  font-style: italic;
+  font-weight: 600;
+}
+.egyptionBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.egyptionBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+/* End Egyption classes */
+
+body {
+  font-size: 1em;
+  font-family: 'GuardianEgyptianWeb', serif;
+  font-variant: normal;
+  letter-spacing: .01em;
+  word-spacing: .02em;
+}
